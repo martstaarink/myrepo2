@@ -3,8 +3,9 @@ title: "Ch_18_1_2"
 author: "Mart Staarink"
 date: "2023-12-08"
 output:
+  pdf_document: default
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 
 This is a single sentence.
