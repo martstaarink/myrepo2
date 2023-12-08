@@ -2,7 +2,7 @@
 title: "Ch_18_1_2"
 author: "Mart Staarink"
 date: "2023-12-08"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
