@@ -9,6 +9,10 @@
 #commit 2
 
 
+
+#nogeenline
+
+
 for (i in 0:9){
   vals = head(seq(i,i+0.99,by=0.99/365),-1)
   emp = append(emp,vals)
