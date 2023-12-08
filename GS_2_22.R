@@ -1,27 +1,5 @@
-library(ggplot2)
-library(readr)
-library(ggpubr)
+OKEEEEEEEEEEE
 
-irbo <- read_csv("C:/Users/marts/OneDrive - Universiteit Twente/Financial Engineering and Management/GS/IRBO.csv")
-returns = c()
-
-for (i in 2:length(irbo$`Adj Close`)){
-  returns[i] = log(irbo$`Adj Close`[i]/irbo$`Adj Close`[i-1])
-}
-
-
-vol = sd(returns, na.rm=TRUE)*sqrt(252)
-nr = 10000
-stock_prices = matrix(,10*365,nr)
-
-s_0 = 33
-
-stock_prices[1,] = s_0
-
-mu = 0.05
-delta_t = 1/365
-
-emp = c()
 
 for (i in 0:9){
   vals = head(seq(i,i+0.99,by=0.99/365),-1)
